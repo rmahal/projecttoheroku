@@ -216,7 +216,7 @@ public class UserController {
 			System.out.println(counter);
 			System.out.println("OK TILL NOW");
 			System.out.println("STOCK:"+stock);
-			String stockURL = "http://localhost:9090/price/"+stock;
+			String stockURL = "http://localhost:9090/stock/price/"+stock;
 			double responsePrice = Double.parseDouble(this.sendGet(stockURL));
 			System.out.println("RESPONSE PRICE:" + responsePrice);
 			if(responsePrice == 0.0){
