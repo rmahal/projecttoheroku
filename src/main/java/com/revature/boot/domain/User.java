@@ -24,16 +24,23 @@ public class User {
 	@Pattern(regexp="[a-zA-Z]+")
 	@javax.validation.constraints.Size(min=2, max=15)
 	@NotBlank
+	@Column(name="username")
 	private String username;
-
 	@javax.validation.constraints.Size(min=4, max=15)
 	@NotBlank
+	@Column(name="password")
 	private String password;
+	@Column(name="funds")
 	private double funds;
+	@Column(name="previous_funds")
 	private double previous_funds;
+	@Column(name="previous_profit_margin")
 	private double previous_profit_margin;
+	@Column(name="current_profit_margin")
 	private double current_profit_margin;
+	@Column(name="custom_index")
 	private String custom_index;
+	@Column(name="portfolio")
 	private String portfolio;
 
 
