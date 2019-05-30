@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    password: haUTHRT7K_qxn9zbPuF2jLwl41B2NKU5
+    password: 
     url: jdbc:postgresql://raja.db.elephantsql.com:5432/fguqzpdu
     username: fguqzpdu
   jpa:
