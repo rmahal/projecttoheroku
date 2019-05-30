@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    password: SsZAJmV4G5R9IchwmY9s_Yt24k3NiBZq
-    url: jdbc:postgresql://raja.db.elephantsql.com:5432/fguqzpdu
-    username: fguqzpdu
+    password:
+    url:
+    username: 
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     properties:
