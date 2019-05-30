@@ -1,5 +1,6 @@
 package com.revature.boot.domain;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -17,7 +18,7 @@ import com.google.gson.Gson;
 
 @Entity
 @Table(name = "users")
-public class User {
+public class User implements Serializable{
 	@Id
 	@GeneratedValue(generator="users_id_seq", strategy=GenerationType.IDENTITY)
 	private Long id;
